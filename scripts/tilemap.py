@@ -3,7 +3,7 @@ import self
 
 
 class Tilemap:
-    def _init__(self, game, tile_size=16):
+    def __init__(self, game, tile_size=16):
         self.game = game
         self.tile_size = tile_size
         self.tilemap = {}
